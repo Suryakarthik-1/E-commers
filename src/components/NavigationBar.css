@@ -1,21 +1,25 @@
-nav{
+nav {
     background-color: #333;
     color: white;
     padding: 10px;
+    display: flex; /* Added */
+    justify-content: space-between; /* Added */
+    align-items: center; /* Added */
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    display: flex; /* Added */
+    align-items: center; /* Added */
 }
 
 nav ul li {
-    float: left;
+    /* float: left; Removed */
 }
 
-nav ul li a{
+nav ul li a {
     display: block;
     color: white;
     text-align: center;
@@ -25,4 +29,25 @@ nav ul li a{
 
 nav ul li a:hover {
     background-color: #111;
+}
+
+/* For the buttons */
+.nav-buttons {
+    /* Align your buttons container to the right */
+    display: flex; /* Added */
+    align-items: center; /* Added */
+}
+
+.nav-button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #0056b3;
 }

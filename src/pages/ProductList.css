@@ -19,4 +19,38 @@
   margin-bottom: 10px;
 }
 
+.product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s;
+}
+
+.product-card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card-content {
+    padding: 15px;
+}
+
+.product-card-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.product-card-description {
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+}
+
 /* Adjust this for responsiveness and personal styling preferences */
