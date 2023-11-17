@@ -1,0 +1,30 @@
+/* LoginPage.css */
+.login-page {
+    padding: 20px;
+    max-width: 300px;
+    margin: auto;
+}
+
+.login-page form > div {
+    margin-bottom: 15px;
+}
+
+.login-page label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-page input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.login-page button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

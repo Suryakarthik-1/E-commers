@@ -1,0 +1,14 @@
+/* UserProfile.css */
+.user-profile {
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.user-profile div {
+  margin-bottom: 10px;
+}
+
+.user-profile label {
+  font-weight: bold;
+}

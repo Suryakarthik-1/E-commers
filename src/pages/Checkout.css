@@ -1,0 +1,31 @@
+/* Checkout.css */
+.checkout {
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.checkout form > div {
+  margin-bottom: 15px;
+}
+
+.checkout label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.checkout input,
+.checkout select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.checkout button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

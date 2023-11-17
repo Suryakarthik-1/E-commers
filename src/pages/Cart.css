@@ -1,0 +1,12 @@
+/* Cart.css */
+.cart {
+  padding: 20px;
+}
+
+.cart-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Add more styling for cart item layout, buttons, etc. */

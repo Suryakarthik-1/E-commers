@@ -1,0 +1,30 @@
+/* SignupPage.css */
+.signup-page {
+  padding: 20px;
+  max-width: 300px;
+  margin: auto;
+}
+
+.signup-page form > div {
+  margin-bottom: 15px;
+}
+
+.signup-page label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.signup-page input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.signup-page button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

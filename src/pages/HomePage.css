@@ -1,0 +1,17 @@
+/* HomePage.css */
+.homepage {
+  padding: 20px;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+.homepage h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.homepage p {
+  color: #666;
+}
+
+/* Add more styling as needed for additional sections */

@@ -1,0 +1,12 @@
+/* ProductDetail.css */
+.product-detail {
+  padding: 20px;
+}
+
+.product-detail .price {
+  color: green;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+/* Add more styling for images, buttons, etc. */
