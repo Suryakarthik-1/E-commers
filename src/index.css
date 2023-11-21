@@ -1,13 +1,50 @@
+/* Global Styles */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: 'Arial', sans-serif; /* You can choose a different font */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Background color for the entire app */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1, h2, h3, h4, h5, h6 {
+    color: #333; /* Basic color for headings */
 }
+
+p {
+    color: #666; /* Basic color for paragraph text */
+}
+
+a {
+    color: #007bff; /* Default link color */
+    text-decoration: none; /* Removes underline from links */
+}
+
+a:hover {
+    color: #0056b3; /* Color when hovering over links */
+}
+
+/* Container for each page content */
+.container {
+    width: 90%;
+    max-width: 1200px; /* Max width for large screens */
+    margin: 20px auto; /* Centering the container */
+    padding: 20px; /* Spacing inside the container */
+}
+
+/* Basic button styling */
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Add other global styles as needed */

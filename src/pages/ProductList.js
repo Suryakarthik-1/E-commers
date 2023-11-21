@@ -16,6 +16,18 @@ const ProductList = () => {
       description: 'Description for Software B',
       price: '$149',
     },
+    {
+      id: 3,
+      name: 'Software B',
+      description: 'Description for Software B',
+      price: '$149',
+    },
+    {
+      id: 4,
+      name: 'Software B',
+      description: 'Description for Software B',
+      price: '$149',
+    },
     // Add more products as needed
   ]
 
